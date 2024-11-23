@@ -1,0 +1,11 @@
+Asymptotic notation
+-------------------
+
+1. Big-O-Notation:
+The Big-O notation is used to calculate the time complexity for the worst-case scenario in programming.
+
+2. Big-Omega-Notation
+The Big-Omega notation is used to calculate the complexity of the best-case scenario in programming.
+
+3.Big-Theta-Notation
+The Theta notation is used to calculate the complexity of the average-case scenario in programming.
