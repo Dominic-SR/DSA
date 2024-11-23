@@ -4,8 +4,24 @@ Asymptotic notation
 1. Big-O-Notation:
 The Big-O notation is used to calculate the time complexity for the worst-case scenario in programming.
 
+Ex: sorting value 54321 
+
+* O(1) represents a constant time complexity in notation.
+* O(log n) represents logarithmic time complexity in notation.
+    Logarithmic time means the algorithm's runtime increases proportionally to the logarithm of the input size. For example, in binary search, the input size is halved at each step, which is why it has 𝑂(log 𝑛) O(log n) complexity.
+* O(n) notation represents linear time complexity, where the runtime grows proportionally to the input size 𝑛 n.
+* O(2n) is effectively the same as O(n), representing linear time complexity
+* O(n²) in notation represents quadratic time complexity.
+  This means that the runtime of the algorithm grows proportionally to the square of the input size 𝑛n.
+  When does O(n²) occur? 
+  Commonly seen in nested loops, where one loop iterates 𝑛 n times and another loop inside it also iterates 𝑛 n times.
+
 2. Big-Omega-Notation
 The Big-Omega notation is used to calculate the complexity of the best-case scenario in programming.
 
+Ex: sorting value 12345
+
 3.Big-Theta-Notation
 The Theta notation is used to calculate the complexity of the average-case scenario in programming.
+
+Ex: sorting value 12354
