@@ -1,5 +1,5 @@
 Asymptotic notation
--------------------
+===================
 
 1. Big-O-Notation:
 The Big-O notation is used to calculate the time complexity for the worst-case scenario in programming.
